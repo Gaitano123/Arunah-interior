@@ -66,9 +66,10 @@ function Contact(){
         );
     }
 
+
     return(
         <>
-            <div className="bg-[url('../src/components/images/pexels-fotoaibe-1571460.jpg')] 
+            <div className="bg-[url('../src/components/images/IMG_5809_5157.jpg')] 
             bg-center bg-cover min-h-[39em] flex justify-center 
             items-center">
                 <h1 className="font-main text-[10em] max-lg:text-[5em] text-primary capitalize">contact us</h1>
@@ -76,7 +77,8 @@ function Contact(){
             <div className="box flex justify-between max-lg:flex-col max-lg:items-center p-[3em] mt-[5em] max-lg:mt-[3em]">
                 <div className="w-[35em] max-lg:w-[100%] min-lg:mr-[2em] p-[2em] bg-primary">
                     <h3 className="capitalize font-heading text-[4em] max-lg:text-[2em] m-0 p-0">Contact us</h3>
-                    <p>Interested in working with us? Our team are always happy to receive enquiries of potential projects. Layla Interiors is stationed in Nairobi Kenya and Stockholm Sweden but we work on projects globally.</p>
+                    <p>Looking to transform your space into a masterpiece? At Arunah Interiors, we specialize in bringing vision and elegance to life. Based in Nairobi, Kenya, we work with clients locally and globally, curating interiors that redefine luxury and functionality.</p>
+                    <p>Get in touch, and let’s turn your space into a masterpiece!</p>
                 </div>
                 <form className="flex flex-col max-lg:mt-[5em] max-lg:mb-[5em]" ref={form}>
                     <p>Name <span>(required)</span></p>

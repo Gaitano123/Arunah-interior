@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import img from "./images/pexels-fotoaibe-1571460.jpg";
+import img from "./images/Arunah.png";
+
 
 function Navbar() {
     const navigate = useNavigate();
@@ -42,7 +43,7 @@ function Navbar() {
             </ul>
 
             {/* Logo */}
-            <img className="h-[7em] w-[7em] max-lg:h-[5em] max-lg:w-[5em] max-md:hidden object-cover absolute top-0 left-[50%] max-md:left-50% mt-[1em]" onClick={() => { navigate("/"); }} src={img} />
+            <img className="h-[9em] w-[9em]  max-lg:h-[5em] max-lg:w-[5em] max-md:hidden object-cover absolute top-0 left-[50%] max-md:left-50% mt-[1em]" onClick={() => { navigate("/"); }} src={img} />
 
             {/* Mobile Navigation */}
             <div className="min-md:hidden">
@@ -57,7 +58,7 @@ function Navbar() {
                     <li><NavLink className="pr-0 pb-[5em] text-[2.5em]" to='/portfolio'>portfolio</NavLink></li>
                     <li><NavLink className="pr-0 pb-[5em] text-[2.5em]" to='/contact'>contact us</NavLink></li>
                 </ul>
-                <img className="h-[7em] w-[7em] max-lg:h-[5em] max-lg:w-[5em] object-cover absolute top-0 left-[50%] max-md:left-50% mt-[1em]" onClick={() => { navigate("/"); setMenuOpen(false); }} src={img} />
+                <img className="h-[9em] w-[9em] max-lg:h-[6em] max-lg:w-[6em] object-cover absolute top-0 left-[50%] max-md:left-50% mt-[1em]" onClick={() => { navigate("/"); setMenuOpen(false); }} src={img} />
             </div>
         </div>
     );

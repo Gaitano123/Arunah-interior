@@ -1,5 +1,10 @@
 import { useEffect } from "react";
-import image3 from './images/pexels-fotoaibe-1571460.jpg'
+import img from './images/pexels-fotoaibe-1571460.jpg'
+import img1 from './images/IMG_7090.jpg'
+import img2 from './images/IMG_3012.jpg'
+import img3 from './images/IMG_9913.jpg'
+import img4 from './images/IMG_7211.jpg'
+
 
 function Service(){
 
@@ -22,40 +27,41 @@ function Service(){
         };
     }, []);
 
+
     return(
         <>
-            <div className="bg-[url('../src/components/images/pexels-fotoaibe-1571460.jpg')] 
+            <div className="bg-[url('../src/components/images/IMG_1778.jpg')] 
             bg-center bg-cover min-h-[39em] flex justify-center 
             items-center">
                 <h1 className='font-main text-[10em] max-lg:text-[5em] text-primary capitalize'>our services</h1>
             </div>
-            <div className=' flex flex-col items-center justify-center max-lg:mt-[4em] max-lg:mb-[5em]'>
+            <div className=' flex flex-col max-w-[100em]  mt-[5em] max-lg:mt-[4em] max-lg:mb-[5em]'>
                 <div className='box service'>
-                    <img className='h-[23em] w-[35em] max-lg:h-[15em] max-lg:w-[20em] object-cover object-center' src={image3} alt='image3' />
+                    <img className='photo' src={img1} alt='img' />
                     <div className='m-[2em] max-lg:m-[1em]'>
-                        <h3 className='font-heading m-0 text-[2.3em] max-lg:text-[1.5em]'>FF&E Design</h3>
-                        <p>The FF&E team works on the furnishing and styling phase of a project, by providing our clients with bespoke furniture design, lightning, artwork, decor and selection of fabric schemes.</p>
+                        <h3 className='font-heading m-0 text-[2.3em] max-lg:text-[1.5em]'>Interior Design</h3>
+                        <p>At Arunah Interiors, we specialize in creating sophisticated, functional spaces through a meticulous, client-focused design process. Our approach is grounded in understanding the unique vision and requirements of each project, whether residential, commercial, or hospitality.</p>
                     </div>
                 </div>
-                <div className='box bg-primary flex m-[2em] p-[2em] max-md:flex-col-reverse'>
+                <div className='box bg-primary flex m-[4em] max-md:m-[2em] p-[2em] max-md:flex-col-reverse'>
                     <div  className='m-[2em] max-lg:m-[1em]'>
                         <h3 className='font-heading m-0 text-[2.3em]  max-lg:text-[1.5em]'>Interior Architecture</h3>
-                        <p>Our interior architects  produce all detail drawings and documentation. All interior architectural elements are handled in house from space planning, kitchen and bathroom.</p>
+                        <p>Arunah Interiors takes over after the building skeleton is completed, handling all interior architectural elements in-house. From space planning to kitchen and bathroom designs, we produce detailed drawings and documentation, ensuring seamless execution from concept to completion.</p>
                     </div>                    
-                    <img className='h-[23em] w-[35em] max-lg:h-[15em] max-lg:w-[20em] object-cover object-center' src={image3} alt='image3' />
+                    <img className='photo' src={img2} alt='img' />
                 </div>
-                <div className='box bg-primary flex m-[2em] p-[2em] max-md:flex-col-reverse'>
+                <div className='box bg-primary flex m-[4em] max-md:m-[2em] p-[2em] max-md:flex-col-reverse'>
                     <div  className='m-[2em] max-lg:m-[1em]'>
-                        <h3 className='font-heading m-0 text-[2.3em]  max-lg:text-[1.5em]'>Project Management</h3>
-                        <p>Our team will monitor the progress of all design elements on site to ensure that the design is being implemented correctly, We manage all regular site visits and coordination with all subcontractors.</p>
+                        <h3 className='font-heading m-0 text-[2.3em]  max-lg:text-[1.5em]'>Furnishing</h3>
+                        <p>Arunah Interiors’ procurement team handles the entire FF&E process, from design and budgeting to sourcing and delivery. We manage all shipments and on-site installations, ensuring every piece aligns with the design vision and is installed to perfection before project completion.</p>
                     </div>   
-                    <img className='h-[23em] w-[35em] max-lg:h-[15em] max-lg:w-[20em] object-cover object-center' src={image3} alt='image3' />             
+                    <img className='photo' src={img3} alt='img' />             
                 </div>
                 <div className='box service'>
-                    <img className='h-[23em] w-[35em] max-lg:h-[15em] max-lg:w-[20em] object-cover object-center' src={image3} alt='image3' />
+                    <img className='photo' src={img4} alt='img' />
                     <div className='m-[2em] max-lg:m-[1em]'>
-                        <h3 className='font-heading m-0 text-[2.3em]  max-lg:text-[1.5em]'>Procurement</h3>
-                        <p>The procurement team handles all aspects of the FF&E delivery from design phase to detailed budgets and all procurement processing. We coordinate all aspects of shipments and final installation on site before completion.</p>
+                        <h3 className='font-heading m-0 text-[2.3em]  max-lg:text-[1.5em]'>Flipping Space</h3>
+                        <p>At Arunah Interiors, we specialize in transforming existing spaces into stunning masterpieces. From concept to completion, we carefully modify layouts, select finishes, and incorporate custom designs to enhance functionality and aesthetics. Our team manages every detail, ensuring a seamless transformation that elevates the space to its full potential.</p>
                     </div>                
                 </div>
             </div>

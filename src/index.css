@@ -19,7 +19,8 @@ body{
 }
 
 @theme{
-    --color-primary: #F6F5F3;
+    /* --color-primary: #F6F5F3; */
+    --color-primary: #EDEAE3;
     --color-secondary: #A8A6A1;
     --color-gb: #B6B4AF;
     --font-main: "Allura", serif;
@@ -27,12 +28,17 @@ body{
     --font-body: "Bacasime Antique", serif;
 }
 
+.photo{
+    @apply h-[20em] object-cover max-lg:h-[15em] max-lg:w-[26em]
+}
+
+
 p{
     @apply font-body text-[1.6em]/[1.8] max-lg:text-[1.3em]/[1.5];
 }
 
 .service{
-    @apply bg-primary flex m-[2em] p-[2em] max-md:flex-col
+    @apply bg-primary flex m-[4em] max-md:m-[2em] p-[2em] max-md:flex-col
 }
 
 label{

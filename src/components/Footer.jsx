@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
-import image1 from './images/pexels-fotios-photos-1090638.jpg'
-import image2 from './images/pexels-fotoaibe-1571453.jpg'
-import image3 from './images/pexels-fotoaibe-1571460.jpg'
-import image4 from './images/pexels-pixabay-271816.jpg'
-import image5 from './images/pexels-pixabay-276724.jpg'
+import image1 from './images/e3be655b-d71e-4d11-a5d5-649cdc92024d.jpg'
+import image2 from './images/IMG_6985.jpg'
+import image3 from './images/IMG_4399.jpg'
+import image4 from './images/IMG_3115.jpg'
+import image5 from './images/IMG_1164.jpg'
 
 
 function Footer() {
-
 
     useEffect(() => {
 
@@ -50,9 +49,9 @@ function Footer() {
             </div>
             <ul className="box flex flex-wrap justify-evenly text-[1.3em] font-heading pt-[1em]">
                 <li>Aruna Interiors Ltd</li>
-                <li>Riverside Drive, Nairobi Kenya</li>
-                <li>Email: info@laylainteriors.com</li>
-                <li>Tel: +254 797959562</li>
+                <li>Nairobi, Kenya</li>
+                <li>Email: Arunahinteriors@gmail.com</li>
+                <li>Tel: +254 717251975</li>
             </ul>
         </div>
     )
