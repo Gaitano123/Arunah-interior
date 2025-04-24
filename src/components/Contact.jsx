@@ -77,7 +77,7 @@ function Contact(){
             <div className="box flex justify-between max-lg:flex-col max-lg:items-center p-[3em] mt-[5em] max-lg:mt-[3em]">
                 <div className="w-[35em] max-lg:w-[100%] min-lg:mr-[2em] p-[2em] bg-primary">
                     <h3 className="capitalize font-heading text-[4em] max-lg:text-[2em] m-0 p-0">Contact us</h3>
-                    <p>Looking to transform your space into a masterpiece? At Arunah Interiors, we specialize in bringing vision and elegance to life. Based in Nairobi, Kenya, we work with clients locally and globally, curating interiors that redefine luxury and functionality.</p>
+                    <p>Looking to transform your space into a masterpiece? At Arunah Interiors, we specialize in bringing vision and elegance to life. Based in Nairobi, Kenya, we work with clients locally and globally, curating interiors that redefine quality living and purposeful design.</p>
                     <p>Get in touch, and let’s turn your space into a masterpiece!</p>
                 </div>
                 <form className="flex flex-col max-lg:mt-[5em] max-lg:mb-[5em]" ref={form}>

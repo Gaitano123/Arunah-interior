@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import image1 from './media/e3be655b-d71e-4d11-a5d5-649cdc92024d.jpg'
-import image2 from './media/IMG_4697.webp'
-import image3 from  './media/IMG_4684.webp'
-import image4 from './media/IMG_4699.webp'
-import image5 from './media/IMG_4694.webp'
+import image2 from './media/IMG_4708.webp'
+import image3 from  './media/IMG_4691.webp'
+import image4 from './media/IMG_4702.webp'
+import image5 from './media/IMG_4712.webp'
 
 
 function Footer() {

@@ -41,13 +41,13 @@ function Home(){
             <div className='flex flex-col justify-center items-center'>
                 <div className='box m-[5em] text-center max-w-[80em]'>
                     <h2 className='font-main text-[4em] max-lg:text-[2.5em]'>Where Vision Meets Craftsmanship</h2>
-                    <p>At Arunah Interiors, we craft more than just spaces—we curate experiences. Specializing in luxury interior transformations, we blend innovation, elegance, and functionality to create timeless designs. From bespoke furnishings to full-scale interior execution, we bring visions to life with precision and artistry.</p>
+                    <p>At Arunah Interiors, we craft more than just spaces—we curate experiences. Specializing in interior transformations, we blend innovation, elegance, and functionality to create timeless designs. From bespoke furnishings to full-scale interior execution, we bring visions to life with precision and artistry.</p>
                 </div>
                 <div className='grid grid-cols-2 p-[2em] max-md:grid-cols-1 max-w-[100em]'>
                     <div className='box max-w-[40em] pr-[2em] max-md:pb-[3em]'>
                         <h2 className='text-[5em] font-heading max-lg:text-[2.5em]'>Our Company</h2>
-                        <p className='pb-[3em] max-md:pb-[2em]'>Arunah Interiors is a premier interior design studio based in Kenya, specializing in luxurious residential, commercial, and hospitality interior design. We collaborate with private clients, developers, and property owners to create bespoke spaces that reflect unique visions and elevate everyday living.</p>
-                        <p>Our expert team of designers and architects combines innovation with functionality, ensuring every project is tailored to the client’s needs and the dynamics of modern living. With an unwavering focus on craftsmanship, attention to detail, and a client-centered approach, we deliver transformative, timeless interiors that stand the test of time.</p>
+                        <p className='pb-[3em] max-md:pb-[2em]'>Arunah Interiors is a premier interior design studio based in Kenya. We specialize in residential, commercial, and hospitality interior design. We collaborate with private clients, developers, and property owners to curate spaces that suit each client's needs.</p>
+                        <p>We partner with our clients from the inception of a project to its completion, ranging from selecting lighting and electrical provisions, acquiring tiles, and planning floor layouts before installations, to choosing paint colors, selecting home finishes, designing kitchen layouts, and picking cabinetry colors that complement the overall design. </p>
                     </div>
                     <div className='max-w-[40em]'>
                         <img className='box h-[25em] w-[100%] object-cover max-lg:h-[20em] max-lg:w-[100%]' src={img1} />
@@ -77,7 +77,7 @@ function Home(){
                             <div className='absolute bottom-0 left-[50%] translate-x-[-50%] 
                             bg-[rgba(0,0,0,0.7)] w-[calc(100%-4em)] mb-[2em] p-[1em] '
                             >
-                                <h2 className='text-[2.5em] font-main text-primary text-center'>kilimani</h2>
+                                <h2 className='text-[2.5em] font-main text-primary text-center capitalize'>eldoret</h2>
                             </div>  
                         </div>
 
@@ -88,7 +88,7 @@ function Home(){
                             <div className='absolute bottom-0 left-[50%] translate-x-[-50%] 
                             bg-[rgba(0,0,0,0.7)] w-[calc(100%-4em)] mb-[2em] p-[1em] '
                             >
-                                <h2 className='text-[2.5em] font-main text-primary text-center'>kilimani</h2>
+                                <h2 className='text-[2.5em] font-main text-primary text-center capitalize'>tatu city</h2>
                             </div>  
                         </div>
 
@@ -99,7 +99,7 @@ function Home(){
                             <div className='absolute bottom-0 left-[50%] translate-x-[-50%] 
                             bg-[rgba(0,0,0,0.7)] w-[calc(100%-4em)] mb-[2em] p-[1em] '
                             >
-                                <h2 className='text-[2.5em] font-main text-primary text-center'>kilimani</h2>
+                                <h2 className='text-[2.5em] font-main text-primary text-center capitalize'>kisumu</h2>
                             </div>  
                         </div>
                     </div>
