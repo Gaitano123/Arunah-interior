@@ -1,9 +1,8 @@
 import { useEffect } from "react";
-import img from './images/pexels-fotoaibe-1571460.jpg'
-import img1 from './images/IMG_7090.jpg'
-import img2 from './images/IMG_3012.jpg'
-import img3 from './images/IMG_9913.jpg'
-import img4 from './images/IMG_7211.jpg'
+import img1 from './media/IMG_4677.webp'
+import img2 from './media/IMG_4707.webp'
+import img3 from './media/IMG_4673.webp'
+import img4 from './media/IMG_4713.webp'
 
 
 function Service(){
@@ -30,7 +29,7 @@ function Service(){
 
     return(
         <>
-            <div className="bg-[url('../src/components/images/IMG_1778.jpg')] 
+            <div className="bg-[url('../src/components/media/IMG_4686.webp')] 
             bg-center bg-cover min-h-[39em] flex justify-center 
             items-center">
                 <h1 className='font-main text-[10em] max-lg:text-[5em] text-primary capitalize'>our services</h1>

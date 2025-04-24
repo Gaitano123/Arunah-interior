@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
-import image1 from './images/e3be655b-d71e-4d11-a5d5-649cdc92024d.jpg'
-import image2 from './images/IMG_6985.jpg'
-import image3 from './images/IMG_4399.jpg'
-import image4 from './images/IMG_3115.jpg'
-import image5 from './images/IMG_1164.jpg'
+import image1 from './media/e3be655b-d71e-4d11-a5d5-649cdc92024d.jpg'
+import image2 from './media/IMG_4697.webp'
+import image3 from  './media/IMG_4684.webp'
+import image4 from './media/IMG_4699.webp'
+import image5 from './media/IMG_4694.webp'
 
 
 function Footer() {
@@ -36,7 +36,7 @@ function Footer() {
                     <ul className="box flex flex-wrap justify-evenly text-[1.5em] max-lg:text-[1.3em] font-heading uppercase underline underline-offset-5 mb-[2em]">
                         <li><NavLink onClick={() => scrollToTop()} className='pr-[3em] max-lg:pr-[1em]' to={"/contact"}>contact</NavLink></li>
                         <li><NavLink onClick={() => scrollToTop()} className='pr-[3em] max-lg:pr-[1em]' to={'/portfolio'} >portfolio</NavLink></li>
-                        <li><NavLink onClick={() => scrollToTop()} className='pr-[3em] max-lg:pr-[1em]' to={'/privacy-terms'}>privacy terms</NavLink></li>
+                        {/* <li><NavLink onClick={() => scrollToTop()} className='pr-[3em] max-lg:pr-[1em]' to={'/privacy-terms'}>privacy terms</NavLink></li> */}
                         <li><NavLink onClick={() => scrollToTop()} className='pr-[3em] max-lg:pr-[1em]' to={'https://www.instagram.com/arunainteriors/'} target="_blank" rel="noopener noreferrer">instagram</NavLink></li>
                     </ul>
                     <div className="flex flex-wrap max-lg:justify-center">

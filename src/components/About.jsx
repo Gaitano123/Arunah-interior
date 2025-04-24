@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import img1 from './images/IMG_6985.jpg'
-import img2 from './images/IMG_7090.jpg'
-import img3 from './images/IMG_7915.jpg'
-import img4 from './images/IMG_3012.jpg'
+import img1 from './media/IMG_4693.webp'
+import img2 from './media/IMG_4677.webp'
+import img3 from './media/IMG_4704.webp'
+import img4 from './media/IMG_4710.webp'
 
 
 function About(){
@@ -30,7 +30,7 @@ function About(){
 
     return(
         <>
-            <div className="bg-[url('../src/components/images/IMG_0856.jpg')] 
+            <div className="bg-[url('../src/components/media/IMG_4698.webp')] 
             bg-center bg-cover min-h-[39em] flex justify-center 
             items-center">
                 <h1 className='font-main text-[10em] max-lg:text-[5em] text-primary capitalize'>the company</h1>

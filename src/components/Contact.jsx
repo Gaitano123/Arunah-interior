@@ -69,7 +69,7 @@ function Contact(){
 
     return(
         <>
-            <div className="bg-[url('../src/components/images/IMG_5809_5157.jpg')] 
+            <div className="bg-[url('../src/components/media/IMG_4689.webp')] 
             bg-center bg-cover min-h-[39em] flex justify-center 
             items-center">
                 <h1 className="font-main text-[10em] max-lg:text-[5em] text-primary capitalize">contact us</h1>

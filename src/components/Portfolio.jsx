@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
-import image3 from './images/pexels-fotoaibe-1571460.jpg'
+import image3 from './media/IMG_4692.webp'
 
 
 function Portfolio(){
@@ -28,11 +28,10 @@ function Portfolio(){
         };
     }, []);
 
-    //src/components/images/IMG_7257_4.jpg
 
     return (
         <>
-            <div className="bg-[url('../src/components/images/IMG_7257_4.jpg')] 
+            <div className="bg-[url('../src/components/media/IMG_4672.webp')] 
             bg-center bg-cover min-h-[39em] flex justify-center 
             items-center">
                 <h1 className='font-main text-[10em] max-lg:text-[5em] text-primary capitalize'>portfolio</h1>

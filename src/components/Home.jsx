@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
-import img from "./images/IMG_7915.jpg"
-import img1 from "./images/IMG_0856.jpg"
-import img2 from "./images/IMG_1109.jpg"
-import img3 from "./images/IMG_4335_6559.jpg"
+import img from "./media/IMG_4701.webp"
+import img1 from "./media/IMG_4695.webp"
+import img2 from "./media/IMG_4685.webp"
+import img3 from "./media/IMG_4683.webp"
 
 
 function Home(){
@@ -30,9 +30,10 @@ function Home(){
         };
     }, []);
 
+
     return(
         <>
-            <div className="bg-[url('../src/components/images/IMG_1187.jpg')] 
+            <div className="bg-[url('../src/components/media/IMG_4692.webp')] 
             bg-center bg-cover min-h-[39em] flex justify-center 
             items-center">
                 <h1 className='font-main text-[10em] text-primary capitalize max-lg:text-[5em]'>Arunah</h1>

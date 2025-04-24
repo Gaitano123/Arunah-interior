@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import img from "./images/Arunah.png";
+import img from "./media/Arunah.png";
 
 
 function Navbar() {
