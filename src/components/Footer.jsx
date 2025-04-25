@@ -3,8 +3,9 @@ import { NavLink } from "react-router-dom";
 import image1 from './media/e3be655b-d71e-4d11-a5d5-649cdc92024d.jpg'
 import image2 from './media/IMG_4708.webp'
 import image3 from  './media/IMG_4691.webp'
-import image4 from './media/IMG_4702.webp'
 import image5 from './media/IMG_4712.webp'
+import img2 from "./media/South B/WhatsApp Image 2025-04-24 at 23.26.58 (2).jpeg";
+
 
 
 function Footer() {
@@ -42,7 +43,7 @@ function Footer() {
                     <div className="flex flex-wrap max-lg:justify-center">
                         <img className='box h-[9em] w-[12em] max-lg:h-[7.4em] max-md:w-[10em] object-cover pr-[1.2em] mb-[1em]' src={image2} alt="footer-image" />
                         <img className='box h-[9em] w-[12em] max-lg:h-[7.4em] max-md:w-[10em] object-cover pr-[1.2em] mb-[1em]' src={image3} alt="footer-image" />
-                        <img className='box h-[9em] w-[12em] max-lg:h-[7.4em] max-md:w-[10em] object-cover pr-[1.2em] mb-[1em]' src={image4} alt="footer-image" />
+                        <img className='box h-[9em] w-[12em] max-lg:h-[7.4em] max-md:w-[10em] object-cover pr-[1.2em] mb-[1em]' src={img2} alt="footer-image" />
                         <img className='box h-[9em] w-[12em] max-lg:h-[7.4em] max-md:w-[10em] object-cover pr-[1.2em] mb-[1em]' src={image5} alt="footer-image" />
                     </div>
                 </div>
