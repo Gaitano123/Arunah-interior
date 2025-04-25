@@ -4,6 +4,8 @@ import img from "./media/IMG_4701.webp"
 import img1 from "./media/IMG_4695.webp"
 import img2 from "./media/IMG_4685.webp"
 import img3 from "./media/IMG_4683.webp"
+import img9 from "./media/Eldoret/WhatsApp Image 2025-04-24 at 22.51.55.jpeg";
+
 
 
 function Home(){
@@ -50,10 +52,10 @@ function Home(){
                         <p>We partner with our clients from the inception of a project to its completion, ranging from selecting lighting and electrical provisions, acquiring tiles, and planning floor layouts before installations, to choosing paint colors, selecting home finishes, designing kitchen layouts, and picking cabinetry colors that complement the overall design. </p>
                     </div>
                     <div className='max-w-[40em]'>
-                        <img className='box h-[25em] w-[100%] object-cover max-lg:h-[20em] max-lg:w-[100%]' src={img1} />
+                        <img className='box h-[25em] w-[100%] object-cover max-lg:h-[20em] max-lg:w-[100%]' src={img1} loading="lazy"/>
                         <div className='flex max-md:flex-col justify-between w-[100%] pt-[2em]'>
-                            <img className='box h-[13em] w-[19.8em] max-md:h-[20em] max-md:w-[100%] object-cover max-lg:w-[11em]' src={img2} />
-                            <img className='box h-[13em] w-[19.8em] max-md:h-[20em] max-md:w-[100%] max-md:ml-0 max-md:mt-[2em] ml-2.5 object-cover max-lg:w-[11em]' src={img3} />
+                            <img className='box h-[13em] w-[19.8em] max-md:h-[20em] max-md:w-[100%] object-cover max-lg:w-[11em]' src={img2} loading="lazy"/>
+                            <img className='box h-[13em] w-[19.8em] max-md:h-[20em] max-md:w-[100%] max-md:ml-0 max-md:mt-[2em] ml-2.5 object-cover max-lg:w-[11em]' src={img3} loading="lazy"/>
                         </div>
                     </div>
                 </div>
@@ -71,9 +73,9 @@ function Home(){
                     <h2 className='box text-[5em] font-main text-center max-lg:text-[2.5em]'>Latest Project</h2>
                     <div className='flex flex-wrap justify-evenly'>
                         <div className='box h-fit w-fit flex flex-col bg-primary p-[2em] relative m-[1em]' 
-                        onClick={() => {navigate("/kilimani")}}
+                        onClick={() => {navigate("/eldoret")}}
                         >
-                            <img className='h-[25em] w-[20em] object-cover relative' src={img} />
+                            <img className='h-[25em] w-[20em] object-cover relative' src={img9} />
                             <div className='absolute bottom-0 left-[50%] translate-x-[-50%] 
                             bg-[rgba(0,0,0,0.7)] w-[calc(100%-4em)] mb-[2em] p-[1em] '
                             >
@@ -82,7 +84,7 @@ function Home(){
                         </div>
 
                         <div className='box h-fit w-fit flex flex-col bg-primary p-[2em] relative m-[1em]' 
-                        onClick={() => {navigate("/kilimani")}}
+                        onClick={() => {navigate("/tatu_city")}}
                         >
                             <img className='h-[25em] w-[20em] object-cover relative' src={img} />
                             <div className='absolute bottom-0 left-[50%] translate-x-[-50%] 
@@ -93,13 +95,13 @@ function Home(){
                         </div>
 
                         <div className='box h-fit w-fit flex flex-col bg-primary p-[2em] relative m-[1em]' 
-                        onClick={() => {navigate("/kilimani")}}
+                        onClick={() => {navigate("/karen")}}
                         >
                             <img className='h-[25em] w-[20em] object-cover relative' src={img} />
                             <div className='absolute bottom-0 left-[50%] translate-x-[-50%] 
                             bg-[rgba(0,0,0,0.7)] w-[calc(100%-4em)] mb-[2em] p-[1em] '
                             >
-                                <h2 className='text-[2.5em] font-main text-primary text-center capitalize'>kisumu</h2>
+                                <h2 className='text-[2.5em] font-main text-primary text-center capitalize'>karen</h2>
                             </div>  
                         </div>
                     </div>

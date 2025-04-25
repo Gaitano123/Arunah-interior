@@ -40,98 +40,58 @@ function Portfolio(){
                 <div className='box bg-primary w-[25em] max-lg:w-[22em] p-[2em] mb-[5em] text-center flex flex-col items-center'>
                     <img className='h-[15em] w-[20em] object-cover' src={image3} alt='portfolio-image' />
                     <div>
-                        <h3 className='text-[2em] max-lg:text-[1.6em]  mt-[1em] p-0 font-heading'>Riverside Apartment</h3>
-                        <p className='text-[1.3em]'>Step into this exquisite apartment in the heart of Riverside, where our team spearheaded the interior design, full FF&E, and styling.  The design effortlessly marries modern elegance with a cozy ambiance, creating a space that beckons luxury.</p>
+                        <h3 className='text-[2em] max-lg:text-[1.6em]  mt-[1em] p-0 font-heading'>Kilimani</h3>
+                        <p className='text-[1.3em]'>Refined interior design with tailored elegance and comfort.</p>
                     </div>
                     <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/kilimani")}}>view project</button>
                 </div>
                 <div className='box bg-primary w-[25em] max-lg:w-[22em] p-[2em] mb-[5em] text-center flex flex-col items-center'>
                     <img className='h-[15em] w-[20em] object-cover' src={image3} alt='portfolio-image' />
                     <div>
-                        <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>Riverside Apartment</h3>
-                        <p className='text-[1.3em]'>Step into this exquisite apartment in the heart of Riverside, where our team spearheaded the interior design, full FF&E, and styling.  The design effortlessly marries modern elegance with a cozy ambiance, creating a space that beckons luxury.</p>
+                        <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>kileleshwa</h3>
+                        <p className='text-[1.3em]'>Thoughtfully styled interiors blending warmth and modern design.</p>
                     </div>
-                    <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/kilimani")}}>view project</button>
+                    <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/kileleshwa")}}>view project</button>
                 </div>
                 <div className='box bg-primary w-[25em] max-lg:w-[22em] p-[2em] mb-[5em] text-center flex flex-col items-center'>
                     <img className='h-[15em] w-[20em] object-cover' src={image3} alt='portfolio-image' />
                     <div>
-                        <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>Riverside Apartment</h3>
-                        <p className='text-[1.3em]'>Step into this exquisite apartment in the heart of Riverside, where our team spearheaded the interior design, full FF&E, and styling.  The design effortlessly marries modern elegance with a cozy ambiance, creating a space that beckons luxury.</p>
+                        <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>SouthB</h3>
+                        <p className='text-[1.3em]'>Contemporary design that balances style, comfort, and function.</p>
                     </div>
-                    <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/kilimani")}}>view project</button>
+                    <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/southB")}}>view project</button>
                 </div>
                 <div className='box bg-primary w-[25em] max-lg:w-[22em] p-[2em] mb-[5em] text-center flex flex-col items-center'>
                     <img className='h-[15em] w-[20em] object-cover' src={image3} alt='portfolio-image' />
                     <div>
-                        <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>Riverside Apartment</h3>
-                        <p className='text-[1.3em]'>Step into this exquisite apartment in the heart of Riverside, where our team spearheaded the interior design, full FF&E, and styling.  The design effortlessly marries modern elegance with a cozy ambiance, creating a space that beckons luxury.</p>
+                        <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>lavington</h3>
+                        <p className='text-[1.3em]'>Sophisticated interiors crafted for timeless, elevated living.</p>
                     </div>
-                    <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/kilimani")}}>view project</button>
+                    <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/lavington")}}>view project</button>
                 </div>
                 <div className='box bg-primary w-[25em] max-lg:w-[22em] p-[2em] mb-[5em] text-center flex flex-col items-center'>
                     <img className='h-[15em] w-[20em] object-cover' src={image3} alt='portfolio-image' />
                     <div>
-                        <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>Riverside Apartment</h3>
-                        <p className='text-[1.3em]'>Step into this exquisite apartment in the heart of Riverside, where our team spearheaded the interior design, full FF&E, and styling.  The design effortlessly marries modern elegance with a cozy ambiance, creating a space that beckons luxury.</p>
+                        <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>Tatu city</h3>
+                        <p className='text-[1.3em]'>Clean, curated spaces reflecting precision and refined taste.</p>
                     </div>
-                    <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/kilimani")}}>view project</button>
+                    <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/tatu_city")}}>view project</button>
                 </div>
                 <div className='box bg-primary w-[25em] max-lg:w-[22em] p-[2em] mb-[5em] text-center flex flex-col items-center'>
                     <img className='h-[15em] w-[20em] object-cover' src={image3} alt='portfolio-image' />
                     <div>
-                        <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>Riverside Apartment</h3>
-                        <p className='text-[1.3em]'>Step into this exquisite apartment in the heart of Riverside, where our team spearheaded the interior design, full FF&E, and styling.  The design effortlessly marries modern elegance with a cozy ambiance, creating a space that beckons luxury.</p>
+                        <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>Eldoret</h3>
+                        <p className='text-[1.3em]'>Timeless interiors designed with thoughtful detail and care.</p>
                     </div>
-                    <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/kilimani")}}>view project</button>
+                    <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/eldoret")}}>view project</button>
                 </div>
                 <div className='box bg-primary w-[25em] max-lg:w-[22em] p-[2em] mb-[5em] text-center flex flex-col items-center'>
                     <img className='h-[15em] w-[20em] object-cover' src={image3} alt='portfolio-image' />
                     <div>
-                        <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>Riverside Apartment</h3>
-                        <p className='text-[1.3em]'>Step into this exquisite apartment in the heart of Riverside, where our team spearheaded the interior design, full FF&E, and styling.  The design effortlessly marries modern elegance with a cozy ambiance, creating a space that beckons luxury.</p>
+                        <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>Karen</h3>
+                        <p className='text-[1.3em]'>Elegant interiors shaped by comfort, function, and simplicity.</p>
                     </div>
-                    <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/kilimani")}}>view project</button>
-                </div>
-                <div className='box bg-primary w-[25em] max-lg:w-[22em] p-[2em] mb-[5em] text-center flex flex-col items-center'>
-                    <img className='h-[15em] w-[20em] object-cover' src={image3} alt='portfolio-image' />
-                    <div>
-                        <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>Riverside Apartment</h3>
-                        <p className='text-[1.3em]'>Step into this exquisite apartment in the heart of Riverside, where our team spearheaded the interior design, full FF&E, and styling.  The design effortlessly marries modern elegance with a cozy ambiance, creating a space that beckons luxury.</p>
-                    </div>
-                    <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/kilimani")}}>view project</button>
-                </div>
-                <div className='box bg-primary w-[25em] max-lg:w-[22em] p-[2em] mb-[5em] text-center flex flex-col items-center'>
-                    <img className='h-[15em] w-[20em] object-cover' src={image3} alt='portfolio-image' />
-                    <div>
-                        <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>Riverside Apartment</h3>
-                        <p className='text-[1.3em]'>Step into this exquisite apartment in the heart of Riverside, where our team spearheaded the interior design, full FF&E, and styling.  The design effortlessly marries modern elegance with a cozy ambiance, creating a space that beckons luxury.</p>
-                    </div>
-                    <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/kilimani"); scrollToTop();}}>view project</button>
-                </div>
-                <div className='box bg-primary w-[25em] max-lg:w-[22em] p-[2em] mb-[5em] text-center flex flex-col items-center'>
-                    <img className='h-[15em] w-[20em] object-cover' src={image3} alt='portfolio-image' />
-                    <div>
-                        <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>Riverside Apartment</h3>
-                        <p className='text-[1.3em]'>Step into this exquisite apartment in the heart of Riverside, where our team spearheaded the interior design, full FF&E, and styling.  The design effortlessly marries modern elegance with a cozy ambiance, creating a space that beckons luxury.</p>
-                    </div>
-                    <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/kilimani"); scrollToTop();}}>view project</button>
-                </div>
-                <div className='box bg-primary w-[25em] max-lg:w-[22em] p-[2em] mb-[5em] text-center flex flex-col items-center'>
-                    <img className='h-[15em] w-[20em] object-cover' src={image3} alt='portfolio-image' />
-                    <div>
-                        <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>Riverside Apartment</h3>
-                        <p className='text-[1.3em]'>Step into this exquisite apartment in the heart of Riverside, where our team spearheaded the interior design, full FF&E, and styling.  The design effortlessly marries modern elegance with a cozy ambiance, creating a space that beckons luxury.</p>
-                    </div>
-                    <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/kilimani"); scrollToTop();}}>view project</button>
-                </div>
-                <div className='box bg-primary w-[25em] max-lg:w-[22em] p-[2em] mb-[5em] text-center flex flex-col items-center'>
-                    <img className='h-[15em] w-[20em] object-cover' src={image3} alt='portfolio-image' />
-                    <div>
-                        <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>Riverside Apartment</h3>
-                        <p className='text-[1.3em]'>Step into this exquisite apartment in the heart of Riverside, where our team spearheaded the interior design, full FF&E, and styling.  The design effortlessly marries modern elegance with a cozy ambiance, creating a space that beckons luxury.</p>
-                    </div>
-                    <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/kilimani"); scrollToTop();}}>view project</button>
+                    <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/karen")}}>view project</button>
                 </div>
             </div>
         </>
