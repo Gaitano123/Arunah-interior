@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
 import image3 from './media/IMG_4692.webp'
+import img9 from "./media/Eldoret/WhatsApp Image 2025-04-24 at 22.51.55.jpeg";
+
 
 
 function Portfolio(){
@@ -78,7 +80,7 @@ function Portfolio(){
                     <button className='bg-none text-gb border-2 rounded-2xl w-[10em] h-[3em] text-[1.3em] capitalize hover:bg-gb hover:text-primary' onClick={() => {navigate("/tatu_city")}}>view project</button>
                 </div>
                 <div className='box bg-primary w-[25em] max-lg:w-[22em] p-[2em] mb-[5em] text-center flex flex-col items-center'>
-                    <img className='h-[15em] w-[20em] object-cover' src={image3} alt='portfolio-image' />
+                    <img className='h-[15em] w-[20em] object-cover' src={img9} alt='portfolio-image' />
                     <div>
                         <h3 className='text-[2em] max-lg:text-[1.6em] mt-[1em] p-0 font-heading'>Eldoret</h3>
                         <p className='text-[1.3em]'>Timeless interiors designed with thoughtful detail and care.</p>

@@ -5,6 +5,8 @@ import img1 from "./media/IMG_4695.webp"
 import img2 from "./media/IMG_4685.webp"
 import img3 from "./media/IMG_4683.webp"
 import img9 from "./media/Eldoret/WhatsApp Image 2025-04-24 at 22.51.55.jpeg";
+import img4 from "./media/Karen/WhatsApp Image 2025-04-24 at 22.34.10 (2).jpeg";
+
 
 
 
@@ -97,7 +99,7 @@ function Home(){
                         <div className='box h-fit w-fit flex flex-col bg-primary p-[2em] relative m-[1em]' 
                         onClick={() => {navigate("/karen")}}
                         >
-                            <img className='h-[25em] w-[20em] object-cover relative' src={img} />
+                            <img className='h-[25em] w-[20em] object-cover relative' src={img4} />
                             <div className='absolute bottom-0 left-[50%] translate-x-[-50%] 
                             bg-[rgba(0,0,0,0.7)] w-[calc(100%-4em)] mb-[2em] p-[1em] '
                             >
