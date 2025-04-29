@@ -2,8 +2,17 @@ import React, { useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
 import img from "./media/IMG_4701.webp"
 import img1 from "./media/IMG_4695.webp"
+import img1_600 from "./media/WhatsApp_Image_2025-04-29_at_18.08.06_z88qxl_c_scale,w_600.jpg"
+import img1_956 from "./media/WhatsApp_Image_2025-04-29_at_18.08.06_z88qxl_c_scale,w_904.jpg"
+import img1_1020 from "./media/WhatsApp_Image_2025-04-29_at_18.08.06_z88qxl_c_scale,w_1020.jpg"
 import img2 from "./media/IMG_4685.webp"
+import img2_600 from "./media/WhatsApp_Image_2025-04-29_at_18.08.11_pjhpgn_c_scale,w_600.jpg"
+import img2_956 from "./media/WhatsApp_Image_2025-04-29_at_18.08.11_pjhpgn_c_scale,w_956.jpg"
+import img2_1020 from "./media/WhatsApp_Image_2025-04-29_at_18.08.11_pjhpgn_c_scale,w_1020.jpg"
 import img3 from "./media/IMG_4683.webp"
+import img3_600 from "./media/WhatsApp_Image_2025-04-29_at_18.07.44_1_x8lmpx_c_scale,w_600.jpg"
+import img3_956 from "./media/WhatsApp_Image_2025-04-29_at_18.07.44_1_x8lmpx_c_scale,w_867.jpg"
+import img3_1020 from "./media/WhatsApp_Image_2025-04-29_at_18.07.44_1_x8lmpx_c_scale,w_1020.jpg"
 import img9 from "./media/Eldoret/WhatsApp Image 2025-04-24 at 22.51.55.jpeg";
 import img4 from "./media/Karen/WhatsApp Image 2025-04-24 at 22.34.10 (2).jpeg";
 
@@ -54,10 +63,28 @@ function Home(){
                         <p>We partner with our clients from the inception of a project to its completion, ranging from selecting lighting and electrical provisions, acquiring tiles, and planning floor layouts before installations, to choosing paint colors, selecting home finishes, designing kitchen layouts, and picking cabinetry colors that complement the overall design. </p>
                     </div>
                     <div className='max-w-[40em]'>
-                        <img className='box h-[25em] w-[100%] object-cover max-lg:h-[20em] max-lg:w-[100%]' src={img1} loading="lazy"/>
+                        <img
+                        className='box h-[25em] w-[100%] object-cover max-lg:h-[20em] max-lg:w-[100%]' 
+                        loading="lazy"
+                        // sizes='(max-width: 600px) , (max-width: 786px) , (max-width: 1020px)'
+                        srcSet={`${img1_600} 600w, ${img1_956} 786w, ${img1_1020} 1020w`}
+                        src={img1}
+                        alt='image 1'/>
                         <div className='flex max-md:flex-col justify-between w-[100%] pt-[2em]'>
-                            <img className='box h-[13em] w-[19.8em] max-md:h-[20em] max-md:w-[100%] object-cover max-lg:w-[11em]' src={img2} loading="lazy"/>
-                            <img className='box h-[13em] w-[19.8em] max-md:h-[20em] max-md:w-[100%] max-md:ml-0 max-md:mt-[2em] ml-2.5 object-cover max-lg:w-[11em]' src={img3} loading="lazy"/>
+                            <img
+                            className='box h-[13em] w-[19.8em] max-md:h-[20em] max-md:w-[100%] object-cover max-lg:w-[11em]' 
+                            loading="lazy"
+                            sizes="(max-width: 786px) 100vw, 316px"                            
+                            srcSet={`${img2_600} 600w, ${img2_956} 786w, ${img2_1020} 1020w`}
+                            src={img2} 
+                            alt='image2'/>
+                            <img 
+                            className='box h-[13em] w-[19.8em] max-md:h-[20em] max-md:w-[100%] max-md:ml-0 max-md:mt-[2em] ml-2.5 object-cover max-lg:w-[11em]' 
+                            loading="lazy"
+                            sizes="(max-width: 786px) 100vw, 316px"
+                            srcSet={`${img3_600} 600w, ${img3_956} 786w, ${img3_1020} 1020w`}
+                            src={img3} 
+                            alt='image3'/>
                         </div>
                     </div>
                 </div>

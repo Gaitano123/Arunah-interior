@@ -28,6 +28,18 @@ body{
     --font-body: "Bacasime Antique", serif;
 }
 
+/* @layer utilities {
+    .bg-home-lg {
+        background-image: url('/src/components/media/WhatsApp_Image_2025-04-29_at_18.08.00_1_k9wsl8_c_scale,w_600.jpg');
+    }
+    .bg-home-md {
+        background-image: url('/src/components/media/WhatsApp_Image_2025-04-29_at_18.08.00_1_k9wsl8_c_scale,w_830.jpg');
+    }
+    .bg-home-sm {
+        background-image: url('/src/components/media/IMG_4692.webp');
+    }
+} */
+
 .photo{
     @apply h-[20em] object-cover max-lg:h-[15em] max-lg:w-[26em]
 }
