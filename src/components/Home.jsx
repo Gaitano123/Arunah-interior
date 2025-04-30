@@ -46,7 +46,7 @@ function Home(){
 
     return(
         <>
-            <div className="bg-[url('../src/components/media/IMG_4692.webp')] 
+            <div className="bg-home
             bg-center bg-cover min-h-[39em] flex justify-center 
             items-center">
                 <h1 className='font-main text-[10em] text-primary capitalize max-lg:text-[5em]'>Arunah</h1>

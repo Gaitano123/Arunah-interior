@@ -35,10 +35,10 @@ function Portfolio(){
         };
     }, []);
 
-
+//src/components/media/WhatsApp Image 2025-04-29 at 18.07.15.jpeg
     return (
         <>
-            <div className="bg-[url('../src/components/media/IMG_4672.webp')] 
+            <div className="bg-portfolio
             bg-center bg-cover min-h-[39em] flex justify-center 
             items-center">
                 <h1 className='font-main text-[10em] max-lg:text-[5em] text-primary capitalize'>portfolio</h1>

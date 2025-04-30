@@ -29,15 +29,26 @@ body{
 }
 
 @layer utilities {
-    /* .bg-home-lg {
-        background-image: url('/src/components/media/WhatsApp_Image_2025-04-29_at_18.08.00_1_k9wsl8_c_scale,w_600.jpg');
+
+    .bg-home {
+        background-image: url('/src/components/media/WhatsApp Image 2025-04-29 at 18.08.00 (1).jpeg');
     }
-    .bg-home-md {
-        background-image: url('/src/components/media/WhatsApp_Image_2025-04-29_at_18.08.00_1_k9wsl8_c_scale,w_830.jpg');
+
+    .bg-service {
+        background-image: url('/src/components/media/WhatsApp Image 2025-04-29 at 18.08.06 (1).jpeg');
     }
-    .bg-home-sm {
-        background-image: url('/src/components/media/IMG_4692.webp');
-    } */
+
+    .bg-about {
+        background-image: url('/src/components/media/WhatsApp Image 2025-04-29 at 18.08.13.jpeg');
+    }
+
+    .bg-portfolio {
+        background-image: url('/src/components/media/WhatsApp Image 2025-04-29 at 18.07.15.jpeg');
+    }
+
+    .bg-contact {
+        background-image: url('/src/components/media/WhatsApp Image 2025-04-29 at 18.08.07.jpeg');
+    }
 
     .bg-eldoret {
         background-image: url('/src/components/media/Eldoret/WhatsApp Image 2025-04-24 at 22.47.13 (3).jpeg');

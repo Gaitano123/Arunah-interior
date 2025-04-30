@@ -46,7 +46,7 @@ function About(){
 
     return(
         <>
-            <div className="bg-[url('../src/components/media/IMG_4698.webp')] 
+            <div className="bg-about
             bg-center bg-cover min-h-[39em] flex justify-center 
             items-center">
                 <h1 className='font-main text-[10em] max-lg:text-[5em] text-primary capitalize'>the company</h1>
