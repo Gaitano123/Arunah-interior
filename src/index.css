@@ -28,8 +28,8 @@ body{
     --font-body: "Bacasime Antique", serif;
 }
 
-/* @layer utilities {
-    .bg-home-lg {
+@layer utilities {
+    /* .bg-home-lg {
         background-image: url('/src/components/media/WhatsApp_Image_2025-04-29_at_18.08.00_1_k9wsl8_c_scale,w_600.jpg');
     }
     .bg-home-md {
@@ -37,8 +37,36 @@ body{
     }
     .bg-home-sm {
         background-image: url('/src/components/media/IMG_4692.webp');
+    } */
+
+    .bg-eldoret {
+        background-image: url('/src/components/media/Eldoret/WhatsApp Image 2025-04-24 at 22.47.13 (3).jpeg');
     }
-} */
+
+    .bg-karen {
+        background-image: url('/src/components/media/Karen/WhatsApp Image 2025-04-24 at 22.34.10.jpeg');
+    }
+
+    .bg-kileleshwa {
+        background-image: url('/src/components/media/Kileleshwa/WhatsApp Image 2025-04-24 at 22.41.39 (2).jpeg');
+    }
+
+    .bg-kilimani {
+        background-image: url('/src/components/media/Kilimani/WhatsApp Image 2025-04-24 at 22.27.07.jpeg');
+    }
+
+    .bg-lavington {
+        background-image: url('/src/components/media/lavington/WhatsApp Image 2025-04-25 at 00.13.18.jpeg');
+    }
+
+    .bg-southb{
+        background-image: url('/src/components/media/South B/WhatsApp Image 2025-04-24 at 23.31.39.jpeg');
+    }
+
+    .bg-tatu_city {
+        background-image: url('/src/components/media/Tatu city/WhatsApp Image 2025-04-24 at 23.15.42.jpeg');
+    }
+}
 
 .photo{
     @apply h-[20em] object-cover max-lg:h-[15em] max-lg:w-[26em]

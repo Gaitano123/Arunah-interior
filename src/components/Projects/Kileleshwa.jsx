@@ -34,8 +34,8 @@ function Kileleshwa() {
     return (
         <>
             <div
-              style={{ backgroundImage: `url('../src/components/media/Kileleshwa/WhatsApp Image 2025-04-24 at 22.41.39 (2).jpeg')` }}
-              className="bg-center bg-cover min-h-[39em] flex justify-center items-center"
+            //   style={{ backgroundImage: `url('../src/components/media/Kileleshwa/WhatsApp Image 2025-04-24 at 22.41.39 (2).jpeg')` }}
+              className="bg-kileleshwa bg-center bg-cover min-h-[39em] flex justify-center items-center"
             >
                 <h1 className='font-main text-[10em] text-primary capitalize max-lg:text-[5em]'>Kileleshwa</h1>
             </div>

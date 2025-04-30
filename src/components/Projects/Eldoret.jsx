@@ -44,8 +44,8 @@ function Eldoret() {
     return (
         <>
             <div
-              style={{ backgroundImage: `url('../src/components/media/Eldoret/WhatsApp Image 2025-04-24 at 22.47.13 (3).jpeg')` }}
-              className="bg-center bg-cover min-h-[39em] flex justify-center items-center"
+            //   style={{ backgroundImage: `url('../src/components/media/Eldoret/WhatsApp Image 2025-04-24 at 22.47.13 (3).jpeg')` }}
+              className="bg-eldoret bg-center bg-cover min-h-[39em] flex justify-center items-center"
             >
               <h1 className='font-main text-[10em] text-primary capitalize max-lg:text-[5em]'>Eldoret</h1>
             </div>
