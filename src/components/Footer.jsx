@@ -35,8 +35,8 @@ function Footer() {
                 <img className="box h-[25em] w-[25em] max-lg:h-[15em] max-lg:w-[15em]" src={image1} />
                 <div className="pl-[4em] max-lg:pl-[2em] max-md:pl-0 max-md:pt-[2em]" >
                     <ul className="box flex flex-wrap justify-evenly text-[1.5em] max-lg:text-[1.3em] font-heading uppercase underline underline-offset-5 mb-[2em]">
-                        <li><NavLink onClick={() => scrollToTop()} className='pr-[3em] max-lg:pr-[1em]' to={"/contact"}>contact</NavLink></li>
-                        <li><NavLink onClick={() => scrollToTop()} className='pr-[3em] max-lg:pr-[1em]' to={'/portfolio'} >portfolio</NavLink></li>
+                        {/* <li><NavLink onClick={() => scrollToTop()} className='pr-[3em] max-lg:pr-[1em]' to={"/contact"}>contact</NavLink></li>
+                        <li><NavLink onClick={() => scrollToTop()} className='pr-[3em] max-lg:pr-[1em]' to={'/portfolio'} >portfolio</NavLink></li> */}
                         {/* <li><NavLink onClick={() => scrollToTop()} className='pr-[3em] max-lg:pr-[1em]' to={'/privacy-terms'}>privacy terms</NavLink></li> */}
                         <li><NavLink onClick={() => scrollToTop()} className='pr-[3em] max-lg:pr-[1em]' to={'https://www.instagram.com/arunainteriors/'} target="_blank" rel="noopener noreferrer">instagram</NavLink></li>
                     </ul>
